@@ -1,0 +1,37 @@
+  _____  ____     _______                   ____
+ |  __ \|  _ \   |__   __|                 |___ \
+ | |  | | |_) |_____| | ___  __ _ _ __ ___   __) |
+ | |  | |  _ <______| |/ _ \/ _` | '_ ` _ \ |__ <
+ | |__| | |_) |     | |  __/ (_| | | | | | |___) |
+ |_____/|____/      |_|\___|\__,_|_| |_| |_|____/
+
+
+Welcome to our project!
+
+The files for creating, indexing and population our
+festival database are stored in /sql. Please update
+/src/de/tum/in/dbpra/config/Database.java to match
+your database configuration.
+
+You may use these commands to generate the data-
+base in a terminal:
+# createdb festival
+# psql festival < path/to/create.sql
+# psql festival < path/to/inserts.sql
+# psql festival < path/to/indexes.sql
+
+The sample database covers all classes from our
+UML presentation, not only the ones used in this
+project.
+
+All users present in the database are set to be vi-
+sitors and may log in to see the timetables. The
+password for all current users is '123'. A valid
+e-mail address is for example 'ostclair0@nasa.gov'.
+
+created by:
+Stian Masserud
+Sebastian Schramm
+Konstantin Thiersch
+Christian Untch
+Elias Hoffmann
